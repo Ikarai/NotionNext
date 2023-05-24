@@ -315,7 +315,7 @@ const BLOG = {
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://missuo.ru/file/17f59f59e8b6c3a0d051f.jpg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
   TITLE: process.env.NEXT_PUBLIC_TITLE || 'Ikarai Blog', // 站点标题 ，被notion中的页面标题覆盖
   HOME_BANNER_IMAGE:
-      process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || './bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
+      process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || 'https://missuo.ru/file/b421015917055ff16929b.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
   DESCRIPTION:
       process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述，被notion中的页面描述覆盖
 
